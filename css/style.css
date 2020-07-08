@@ -1,14 +1,49 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+body {
+  margin: 40px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 550px 550px 550px;
+  grid-template-rows: 500px 500px 500px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+  padding-left: 110px;
+  padding-top: 30px;
+}
+
+.box {
+
+  color:black;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  align-items: center;
+  background-color: #eee;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+  align-items: center;
+  padding-left: 110px;
+}
+
