@@ -30,9 +30,9 @@ body {
   background-color: #eee;
 }
 
-h5 {
+h4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 24px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -47,3 +47,15 @@ img {
   padding-left: 110px;
 }
 
+.form{
+  display: grid;
+  width: 1350px;
+  height: 800px;
+  align-items: center;
+
+}
+
+#btnsend {
+  text-align: center;
+  padding-left: 600px;
+}
